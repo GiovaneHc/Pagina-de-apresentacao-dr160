@@ -1,0 +1,93 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-image: url('../images/fundo.jpg');
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    background-color: rgb(34, 34, 34);
+    width: 70%;
+    height: 70%;
+    box-shadow: 50px 50px 100px #000000;
+
+}
+
+.menu {
+    background-color: #343434;
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    padding: 10px;
+}
+
+#marca {
+    width: 200px;
+}
+
+#menu {
+    width: 50px;
+}
+
+.contents {
+    display: flex;
+    align-items: center;
+}
+
+.moto_nome {
+    align-items: center;
+}
+
+.moto {
+    background-image: url('../images/moto.png');
+    width: 700px;
+    height: 460px;
+}
+
+.nome {
+    display: flex;
+    justify-content: end;
+    color: #343434;
+    font-size: 100px;
+    font-weight: bold;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.title_desc {
+    justify-content: center;
+    padding: 30px;
+}
+
+.title {
+    color: rgb(9, 80, 211);
+    font-size: 40px;
+    font-family: 'Alfa Slab One', cursive;
+}
+
+.desc {
+    color: rgb(124, 153, 153);
+}
+
+.botao {
+    display: flex;
+    padding-top: 200px;
+    justify-content: end;
+}
+
+.title_desc a {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(13, 98, 196);
+    color: white;
+    font-size: 15px;
+    text-decoration: none;
+    border-radius: 15%;
+    box-shadow: 1px 1px 10px #000000;
+}
